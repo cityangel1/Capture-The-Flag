@@ -19,4 +19,5 @@ Command: ./solve.sh \
 ssh bandit13@bandit.labs.overthewire.org -p 2220 \
 Password:FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn \
 Damn that was Good. \
+Find Attached bash Script that does everything for you. \
 [solve.sh](https://github.com/user-attachments/files/25607721/solve.sh)
