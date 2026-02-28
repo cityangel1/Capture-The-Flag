@@ -8,13 +8,13 @@ Look at the commands that logged you into previous bandit levels, and find out h
  <img width="816" height="753" alt="image" src="https://github.com/user-attachments/assets/25de0fbf-150e-4de6-941f-d80b309eeaa2" /> \
 <img width="817" height="240" alt="image" src="https://github.com/user-attachments/assets/b23e1ca5-57c8-4a2f-ad62-38e05fb400e2" /> \
 3.AS YOU CAN SEE:ITS AN RSA KEY(CRYPTOGRAPHIC KEY),SO WHAT?,GOOD THING WE DONT HAVE DEMENTIA,,WE REMEMBER FROM THE LEVEL DESCRIPTION \
-THAT WE ARE SUPPOSED TO USE A KEY.WELL HERE IT IS. \ 
+THAT WE ARE SUPPOSED TO USE A KEY.WELL HERE IT IS.  \ 
 4.Tool:scp ,ssh \
 Now you might be asking yourself whats scp? \
 its used to copy contents of an ssh system into your local machine. \
    FOR MORE INFO: scp -h \
 TERMINAL : \
-5.exit - come out of the bandit session. \
+5.exit - come out of the bandit session.  \
 6. scp -P 2220 bandit13@bandit.labs.overthewire.org:sshkey.private . \
    -P 2220 - the port to connect to. make sure its caps. \
    bandit13@bandit.labs.overthewire.org:sshkey.private - the file we want to copy. \
