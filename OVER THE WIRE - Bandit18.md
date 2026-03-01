@@ -10,5 +10,4 @@ REMEMBER THE FILE YOU MADE PREVOUSLY. \
 4. Tool:diff ]
    diff passwords.new passwords.old \
       <img width="650" height="153" alt="image" src="https://github.com/user-attachments/assets/63bbed7c-7ac7-4235-96e7-afa980fb123c" /> \
-   Password for bandit 18 :pGozC8kOHLkBMOaL0ICPvLV1IjQ5F1VA
-
+   Password for bandit 18 :x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
