@@ -7,6 +7,7 @@ Look in /etc/cron.d/ for the configuration and see what command is being execute
    Command being executed:/usr/bin/cronjob_bandit22.sh \
 2.LETS HAVE A LOOK AT IT. \
 <img width="888" height="132" alt="image" src="https://github.com/user-attachments/assets/62325b76-d498-4f67-bf0a-1247cfb4a7ec" /> \
-THERE WE HAVE OUR PASSWORD FOR BANDIT22:t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv \
+3.see the file contents of cat /tmp/t70...fgv \
+THERE WE HAVE OUR PASSWORD FOR BANDIT22:tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q \
 # THAT INNER HAPPINESS
 
