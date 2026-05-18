@@ -13,8 +13,7 @@ http://natas5.natas.labs.overthewire.org/ \
 4.Open terminal: \
     - WE need to change the referer using the following curl command. \
     -THe syntax is : curl -u "username:password" -H "Referer:Referer_name" <target> \
-    - curl -u natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ \
-     -H "Referer: http://natas5.natas.labs.overthewire.org/" \
+    - curl -u natas4:QryZXc2e0zahULdHrtHxzyYkj59kUxLQ -H "Referer: http://natas5.natas.labs.overthewire.org/" \
      http://natas4.natas.labs.overthewire.org/
 <img width="1002" height="789" alt="image" src="https://github.com/user-attachments/assets/b1242475-8b7a-451a-a85d-eccff5cd50fc" />
 # Flag : 0n35PkggAPm2zbEpOU802c0x0Msn1ToK
