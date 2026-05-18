@@ -1,5 +1,5 @@
 # CHALLENGE
-Access next password level,Given:
+Access next password level,Given: \
 Username: natas3 \
 URL:      http://natas3.natas.labs.overthewire.org \
 Password: 3gqisGdR0pjm6tpkDKdIWO2hSvchLeYH
