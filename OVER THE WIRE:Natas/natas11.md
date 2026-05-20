@@ -18,7 +18,8 @@ GIven \
    - let encrypting key be X
    - let cookie be y.
    - NOw we know the cookie value and the data,we only dont know the XOR key,we work backwards to recover the key and then encrypt our data with the new key to get the password.
-   - Lets do it. 
+   - Lets do it. \
+
 4.Get Key.\
 NOw here we will use a php code to do the work for us.I have attached the php file so you can see what i used. \
 Now all you need to input is the cookie value.to get cookie value,right click on web,go to inspect,then storage,then cookies,then copy the cookie value. \
