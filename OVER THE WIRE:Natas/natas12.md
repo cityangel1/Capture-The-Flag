@@ -18,14 +18,14 @@ URL:      http://natas12.natas.labs.overthewire.org
    <?php echo shell_exec("cat /etc/natas_webpass/natas13"); ?>
  - Step 2: Open Developer Tools
  - Step 3: Find and Edit the Hidden Field
- <input type="hidden" name="filename" value="some_random_string.jpg">
- <img width="974" height="543" alt="image" src="https://github.com/user-attachments/assets/909d2e21-4398-4493-a9d8-d7706109477c" />
- This hidden field controls the name under which the server will save your uploaded file.
-  Double-click the value attribute and change the extension from .jpg to .php. The name itself doesn't matter, only the extension does. It should look like this:
-  html
-  <img width="291" height="88" alt="image" src="https://github.com/user-attachments/assets/c86c6d52-0cf6-403a-a053-10d3e80f2f10" />
+   <input type="hidden" name="filename" value="some_random_string.jpg">
+   <img width="974" height="543" alt="image" src="https://github.com/user-attachments/assets/909d2e21-4398-4493-a9d8- d7706109477c" />
+   This hidden field controls the name under which the server will save your uploaded file.
+   Double-click the value attribute and change the extension from .jpg to .php. The name itself doesn't matter, only     the extension does. It should look like this:
+   html
+   <img width="291" height="88" alt="image" src="https://github.com/user-attachments/assets/c86c6d52-0cf6-403a-a053-10d3e80f2f10" />
  - Step 4: Upload the PHP File
-   Now, use the "Browse" button to select your shell.php file and click the Upload File button. The server will save your file on the disk using the name you specified in the hidden field (e.g., random_name.php).
+   Now, use the "Browse" button to select your shell.php file and click the Upload File button. The server will save     your file on the disk using the name you specified in the hidden field (e.g., random_name.php).
  - Step 5: Access the Uploaded File
    After a successful upload, the page will provide a link to your uploaded file, like http://natas12.natas.labs.overthewire.org/upload/random_name.php. Click this link.
  <img width="608" height="116" alt="image" src="https://github.com/user-attachments/assets/01b67fa4-c325-4ac2-a94b-73c53fb39ebd" /> \
