@@ -10,15 +10,15 @@ GIven \
 2.View source Code. \
 <img width="961" height="924" alt="image" src="https://github.com/user-attachments/assets/134907ab-306f-4f03-8434-4d5933e31b32" /> \
 3.INterpretation. \
- -THe code encrypts the cookie using XOR in a Base64 encoding which inturn is encoded using json.
- -WE already know the datavalue that is being encrypted : $defaultdata = array( "showpassword"=>"no", "bgcolor"=>"#ffffff");
- -Now inorder to pass this level we need to set the show password value to "yes" and then encode to Json,Base64 and finally through XOR
- -Lets express this mathematically
-   -let a=$defaultdata = array( "showpassword"=>"no", "bgcolor"=>"#ffffff");
-   -let encrypting key be X
-   -let cookie be y.
-   -NOw we know the cookie value and the data,we only dont know the XOR key,we work backwards to recover the key and then encrypt our data with the new key to get the password.
-   -Lets do it. \
+ - THe code encrypts the cookie using XOR in a Base64 encoding which inturn is encoded using json.
+ - WE already know the datavalue that is being encrypted : $defaultdata = array( "showpassword"=>"no",  "bgcolor"=>"#ffffff");
+ - Now inorder to pass this level we need to set the show password value to "yes" and then encode to Json,Base64 and finally through XOR
+ - Lets express this mathematically
+   - let a=$defaultdata = array( "showpassword"=>"no", "bgcolor"=>"#ffffff");
+   - let encrypting key be X
+   - let cookie be y.
+   - NOw we know the cookie value and the data,we only dont know the XOR key,we work backwards to recover the key and then encrypt our data with the new key to get the password.
+   - Lets do it. \
 4.Get Key.\
 NOw here we will use a php code to do the work for us.I have attached the php file so you can see what i used. \
 Now all you need to input is the cookie value.to get cookie value,right click on web,go to inspect,then storage,then cookies,then copy the cookie value. \
