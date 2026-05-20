@@ -19,7 +19,7 @@ URL:      http://natas12.natas.labs.overthewire.org
  - Step 2: Open Developer Tools
  - Step 3: Find and Edit the Hidden Field
    <input type="hidden" name="filename" value="some_random_string.jpg">
-   <img width="974" height="543" alt="image" src="https://github.com/user-attachments/assets/909d2e21-4398-4493-a9d8- d7706109477c" />
+   <img width="656" height="461" alt="image" src="https://github.com/user-attachments/assets/895f57df-bdff-4658-b252-a491645c7c07" /> \
    This hidden field controls the name under which the server will save your uploaded file.
    Double-click the value attribute and change the extension from .jpg to .php. The name itself doesn't matter, only     the extension does. It should look like this:
    html
