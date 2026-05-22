@@ -26,6 +26,12 @@ URL:      http://natas17.natas.labs.overthewire.org
 
 4.Solve \
 AGAIN WE USE AN AUTOMATED SCRIPT. \
+<img width="885" height="307" alt="image" src="https://github.com/user-attachments/assets/1aa54f2e-1803-4237-af82-776325b613a8" /> \
+You will wait like a century for it to finish. \
+<img width="726" height="289" alt="image" src="https://github.com/user-attachments/assets/bed9c215-a6d4-41d4-857a-0f0a2183d2ce" /> \
+# Flag : 6OG1PbKdVjyBlpxgD4DDbRG6ZLlCGgCJ
+
+
 
  
  
