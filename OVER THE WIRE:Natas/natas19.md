@@ -24,6 +24,10 @@ URL:      http://natas19.natas.labs.overthewire.org
  - now we know the format,admin-sessionID
 
 5.Craft an automated script to brute force using the known ID format \
+<img width="618" height="610" alt="image" src="https://github.com/user-attachments/assets/b6563532-65e0-4899-bfe6-74e1a575151b" /> \
+<img width="944" height="950" alt="image" src="https://github.com/user-attachments/assets/a2e98124-fd25-4927-881f-8a2acf762b5e" /> 
+# Flag: p5mCvP7GS2K6Bmt3gqhM2Fc1A5T8MVyw
+
 
 
 
