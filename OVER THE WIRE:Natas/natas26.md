@@ -12,16 +12,16 @@ URL:      http://natas26.natas.labs.overthewire.org
 3.Interprete
   - This is a PHP object injection / unsafe deserialization challenge.
   - The vulnerability is:
-   - unserialize(base64_decode($_COOKIE['drawing']))
-   - The application unserializes user-controlled data from a cookie.
+    - unserialize(base64_decode($_COOKIE['drawing']))
+    - The application unserializes user-controlled data from a cookie.
   - A class contains a dangerous destructor like:
-   - function __destruct() {
-   - file_put_contents($this->filename, $this->img);
-   - }
+    - function __destruct() {
+    - file_put_contents($this->filename, $this->img);
+    - }
   - This lets you:
-   - create arbitrary files
-   - write PHP code into the web directory
-   - execute commands through a webshell
+    - create arbitrary files
+    - write PHP code into the web directory
+    - execute commands through a webshell
 
 4.Solve
  - WE WILL USE A PYTHON SCRIPT TO DO OUR DIRTY WORK
